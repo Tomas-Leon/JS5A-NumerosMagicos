@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="practica de js con DOM, juego de adivinar un numero magico" />
+    <meta name="keywords" content="html, js, DOM" />
+    <meta name="author" content="Tomas Leon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>JS5a-NumerosMagicos</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html"
+            ><i class="bi bi-diagram-3-fill"></i> Numeros Magicos
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main class="container my-5">
+      <section>
+        <h1 class="mb-5 text-center border-bottom border-warning">
+          Practico JS5a - DOM
+        </h1>
+        <article class="mb-3 border border-warning p-4 bg-dark-subtle">
+          <h3>Ejercicio 1:</h3>
+          <div class="container-fluid">
+            <p class="border p-2 bg-dark">
+              Crea una web con bootstrap y js, que contenga un botón comenzar el
+              juego, en ese momento se crea un número aleatorio que el usuario
+              deberá adivinar, la interfaz del usuario debe tener además un
+              input para ingresar un número y un botón enviar, al presionar el
+              botón enviar mostrar en un alert si el usuario adivino o no el
+              número mágico, si no lo adivino indicarle con un alert si el
+              numero que ingreso es mayor o menor al número mágico. Cuando el
+              usuario adivine el numero mostrar un mensaje indicando al usuario
+              que adivino el numero.
+            </p>
+          </div>
+          <div class="container mt-2">
+            <button id="iniciarJuego" class="btn btn-primary mt-1">
+              Comenzar el juego
+            </button>
+            <div id="juego" class="mt-4 ocultar">
+              <p>Ingresa un número entre 1 y 100:</p>
+              <form id="formJuego">
+                <input
+                  type="number"
+                  id="numeroIngresado"
+                  class="form-control w-50"
+                  placeholder="Escribe tu número"
+                  min="1"
+                  max="100"
+                />
+                <button type="submit" id="enviar" class="btn btn-success mt-3">
+                  Enviar
+                </button>
+              </form>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="bg-dark-subtle py-4 text-center">
+      <p>&copy; Todos los derechos reservados</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/1.js"></script>
+  </body>
+</html>

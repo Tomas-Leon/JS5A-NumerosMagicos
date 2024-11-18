@@ -24,7 +24,7 @@ El objetivo es que el usuario adivine el número, con la ayuda de las pistas pro
 
 ## Instrucciones de Uso
 
-1. **Abrir la aplicación en un navegador.**
+1. **Abrir la aplicación.**[aqui](https://js5a-numeros-magicos.netlify.app)
 2. Presionar el botón **"Comenzar el juego"** para generar el número mágico.
 3. Ingresar un número en el campo de texto.
 4. Presionar el botón **"Enviar"** para validar el número.
@@ -42,7 +42,7 @@ Este proyecto está orientado a:
 
 ## Autor
 
-Creado por: **Tomás León**
+Creado por: **[Tomás León](https://github.com/Tomas-Leon)**
 
 ## Licencia
 
